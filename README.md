@@ -17,7 +17,7 @@ The platform consists of two decoupled service layers:
 ---
 ## 🚀 Local Development Setup
 ### 1. Backend Service
-\\\
+\\\bash
 cd backend
 npm install
 npm run dev
