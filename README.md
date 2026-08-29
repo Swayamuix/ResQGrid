@@ -17,7 +17,7 @@ The platform consists of two decoupled service layers:
 ---
 ## 🚀 Local Development Setup
 ### 1. Backend Service
-\\\ash
+\\\
 cd backend
 npm install
 npm run dev
@@ -25,7 +25,7 @@ npm run dev
 \\\
 ### 2. Frontend Command Dashboard
 Open a second terminal window:
-\\\ash
+\\\
 cd frontend
 npm install
 npm run dev
