@@ -17,20 +17,22 @@ The platform consists of two decoupled service layers:
 ---
 ## 🚀 Local Development Setup
 ### 1. Backend Service
-```
+```bash
 cd backend
 npm install
 npm run dev
-# Running on http://localhost:3000
 ```
+# Running on http://localhost:3000
+
 ### 2. Frontend Command Dashboard
 Open a second terminal window:
 ```bash
 cd frontend
 npm install
 npm run dev
-# Running on http://localhost:3001
 ```
+# Running on http://localhost:3001
+
 ---
 ## 🛠️ Tech Stack
 * **Framework:** Next.js (App Router), React, TypeScript
