@@ -6,8 +6,8 @@ The platform consists of two decoupled service layers:
 
 | Layer | Directory | Default Port | Description |
 | :--- | :--- | :--- | :--- |
-| **Multi-Agent Backend** | \ackend/\ | \http://localhost:3000\ | Agent orchestration core (Scout, Logistics, Comms), tool execution APIs, and routing models |
-| **Command Frontend** | \rontend/\ | \http://localhost:3001\ | Interactive Leaflet GIS dashboard, SOS triage queue, hazard layer toggles, and live telemetry |
+| **Multi-Agent Backend** | \backend/\ | \http://localhost:3000\ | Agent orchestration core (Scout, Logistics, Comms), tool execution APIs, and routing models |
+| **Command Frontend** | \frontend/\ | \http://localhost:3001\ | Interactive Leaflet GIS dashboard, SOS triage queue, hazard layer toggles, and live telemetry |
 
 ---
 ## 🤖 Hierarchical Agent Core
@@ -17,20 +17,20 @@ The platform consists of two decoupled service layers:
 ---
 ## 🚀 Local Development Setup
 ### 1. Backend Service
-\\\bash
+
 cd backend
 npm install
 npm run dev
 # Running on http://localhost:3000
-\\\
+
 ### 2. Frontend Command Dashboard
 Open a second terminal window:
-\\\
+
 cd frontend
 npm install
 npm run dev
 # Running on http://localhost:3001
-\\\
+
 ---
 ## 🛠️ Tech Stack
 * **Framework:** Next.js (App Router), React, TypeScript
